@@ -3,7 +3,6 @@ apiVersion: triggers.tekton.dev/v1alpha1
 kind: TriggerBinding
 metadata:
   name: ansible-ee-tb
-  namespace: ansible-ee-pipeline
 spec:
   params:
     - name: repositoryname

@@ -2,7 +2,6 @@ apiVersion: tekton.dev/v1beta1
 kind: Pipeline
 metadata:
   name: ansible-builder
-  namespace: ansible-ee-pipeline
 spec:
   workspaces:
   - name: ee-repo

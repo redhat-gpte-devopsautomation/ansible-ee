@@ -6,7 +6,6 @@ metadata:
     app.kubernetes.io/part-of: Triggers
     eventlistener: ansible-ee-el
   name: ansible-ee-el
-  namespace: ansible-ee-pipeline
 spec:
   port:
     targetPort: http-listener

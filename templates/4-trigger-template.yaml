@@ -3,7 +3,6 @@ apiVersion: triggers.tekton.dev/v1alpha1
 kind: TriggerTemplate
 metadata:
   name: ansible-ee-tt
-  namespace: ansible-ee-pipeline
 spec:
   params:
     - name: repositoryname

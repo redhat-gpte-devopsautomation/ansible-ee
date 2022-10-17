@@ -2,7 +2,6 @@ apiVersion: triggers.tekton.dev/v1alpha1
 kind: Trigger
 metadata:
   name: ansible-ee-t
-  namespace: ansible-ee-pipeline
 spec:
   #serviceAccountName: pipeline
   interceptors:
