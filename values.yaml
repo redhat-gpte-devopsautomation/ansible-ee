@@ -11,6 +11,9 @@ github:
 openshift:
   appsDomain: apps.cluster-v28xf-1.sandbox2487.opentlc.com
 
+dockerRegistry:
+  org: quay.io/treddy08
+
 image:
   repository: nginx
   pullPolicy: IfNotPresent
