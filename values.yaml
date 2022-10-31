@@ -11,8 +11,7 @@ github:
 openshift:
   appsDomain: apps.cluster-v28xf-1.sandbox2487.opentlc.com
 
-dockerRegistry:
-  org: quay.io/treddy08
+dockerRegistry: example-ansible-automation-platform.apps.cluster-2hksx-3.sandbox1638.opentlc.com
 
 image:
   repository: nginx
